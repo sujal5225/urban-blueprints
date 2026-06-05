@@ -155,7 +155,7 @@ export function About() {
                       y: -4, 
                       scale: 1.01,
                       boxShadow: "0 12px 30px -10px rgba(0,0,0,0.08)",
-                      borderColor: "rgba(180, 142, 75, 0.3)"
+                      borderColor: "rgba(227, 6, 19, 0.3)"
                     }}
                     className="flex gap-4 p-4 rounded-[var(--radius-xl)] bg-background border border-border shadow-[var(--shadow-soft)] transition-all duration-300 cursor-default"
                   >
@@ -183,7 +183,7 @@ export function About() {
               <svg className="absolute -inset-6 w-[calc(100%+48px)] h-[calc(100%+48px)] pointer-events-none z-10 opacity-30" viewBox="0 0 500 400" fill="none">
                 <motion.path
                   d="M 20 40 L 480 40 L 480 360 L 20 360 Z"
-                  stroke="#b48e4b"
+                  stroke="var(--accent)"
                   strokeWidth="1"
                   strokeDasharray="4 4"
                   initial={{ pathLength: 0 }}
@@ -200,9 +200,9 @@ export function About() {
                   viewport={{ once: true }}
                   transition={{ duration: 1.2, delay: 0.3, ease: "easeInOut" }}
                 />
-                <circle cx="60" cy="40" r="3.5" fill="#b48e4b" />
+                <circle cx="60" cy="40" r="3.5" fill="var(--accent)" />
                 <circle cx="480" cy="340" r="3.5" fill="#3b82f6" />
-                <text x="70" y="32" fill="#b48e4b" fontSize="9" fontFamily="monospace">COORD_X_REF_01 // 51.5074 N</text>
+                <text x="70" y="32" fill="var(--accent)" fontSize="9" fontFamily="monospace">COORD_X_REF_01 // 51.5074 N</text>
                 <text x="350" y="332" fill="#3b82f6" fontSize="9" fontFamily="monospace">SYS_CALIBRATION_OK</text>
               </svg>
 

@@ -27,11 +27,9 @@ export function Navbar() {
 
   const navBackgroundClass = isScrolled
     ? "bg-background/95 backdrop-blur-md shadow-soft py-4 border-b border-border"
-    : "bg-transparent py-6 border-transparent";
+    : "bg-background/80 backdrop-blur-md py-5 border-b border-border/20";
 
-  const textColorClass = isScrolled
-    ? "text-primary"
-    : "text-white";
+  const textColorClass = "text-primary";
 
   return (
     <>
@@ -43,15 +41,7 @@ export function Navbar() {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded-md focus-visible:outline-none">
-              <div className={cn(
-                "p-2 rounded-[var(--radius-sm)] transition-colors duration-300",
-                isScrolled ? "bg-primary text-primary-foreground group-hover:bg-accent" : "bg-background text-primary group-hover:bg-accent group-hover:text-primary-foreground"
-              )}>
-                <Building2 size={24} />
-              </div>
-              <span className={cn("font-heading font-bold text-2xl tracking-tight transition-colors", textColorClass)}>
-                Urban Blueprints
-              </span>
+              <img src="/images/logo/Urban_Logo_Final-02.png" alt="Urban Blueprints Logo" className="h-12 md:h-14 w-auto object-contain" />
             </Link>
 
             {/* Desktop Navigation */}
@@ -149,12 +139,9 @@ export function Navbar() {
             >
               <div className="p-6 flex flex-col h-full">
                 <div className="flex justify-between items-center mb-8">
-                  <div className="flex items-center gap-2">
-                    <div className="bg-primary text-white p-1.5 rounded-md">
-                      <Building2 size={20} />
-                    </div>
-                    <span className="font-heading font-bold text-xl text-primary">Urban Blueprints</span>
-                  </div>
+                  <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center">
+                    <img src="/images/logo/Urban_Logo_Final-02.png" alt="Urban Blueprints Logo" className="h-8 w-auto object-contain" />
+                  </Link>
                   <button onClick={() => setMobileMenuOpen(false)} className="text-gray-500 hover:text-primary bg-secondary p-2 rounded-full transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-accent" aria-label="Close menu">
                     <X size={20} />
                   </button>

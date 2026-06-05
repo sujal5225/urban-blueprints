@@ -236,10 +236,10 @@ export function Hero() {
                 ))}
               </span>
               <br />
-              <span className="text-amber-400">
+              <span className="text-accent">
                 {"Solutions for a".split(" ").map((word, idx) => (
                   <React.Fragment key={idx}>
-                    <span className="hero-word inline-block text-amber-400">{word}</span>
+                    <span className="hero-word inline-block text-accent">{word}</span>
                     {idx < 2 ? " " : ""}
                   </React.Fragment>
                 ))}

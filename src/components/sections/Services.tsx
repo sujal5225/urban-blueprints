@@ -42,7 +42,7 @@ const services = [
     href: '/services/environmental-engineering',
     color: 'from-emerald-500 to-green-500 text-white',
     tags: ['EIA Assessments', 'Sustainability', 'Green Infrastructure'],
-    image: '/images/services/environmental/hero-environmental.webp'
+    image: '/images/services/environmental/enviromental-hero.webp'
   },
   {
     icon: Mountain,

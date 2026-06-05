@@ -111,7 +111,7 @@ export function ContactPreview() {
                   {/* Roads / transit axes */}
                   <motion.path
                     d="M 20 100 L 330 100 M 175 10 L 175 190"
-                    stroke="#b48e4b"
+                    stroke="var(--accent)"
                     strokeWidth="1.5"
                     initial={{ pathLength: 0 }}
                     whileInView={{ pathLength: 1 }}
@@ -131,7 +131,7 @@ export function ContactPreview() {
                   {/* Intersecting survey radial curves */}
                   <motion.path
                     d="M 175 100 A 60 60 0 1 1 174.9 100"
-                    stroke="#b48e4b"
+                    stroke="var(--accent)"
                     strokeWidth="0.75"
                     strokeDasharray="4 4"
                     initial={{ pathLength: 0 }}
@@ -144,7 +144,7 @@ export function ContactPreview() {
                     cx="175"
                     cy="100"
                     r="4"
-                    fill="#b48e4b"
+                    fill="var(--accent)"
                     initial={{ scale: 0 }}
                     whileInView={{ scale: [1, 2, 1] }}
                     viewport={{ once: true }}
@@ -226,7 +226,7 @@ export function ContactPreview() {
                       placeholder="e.g. Johnathan Ross"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="border-gray-200 focus-visible:ring-accent focus:shadow-[0_0_15px_rgba(180,142,75,0.25)] transition-all duration-300"
+                      className="border-gray-200 focus-visible:ring-accent focus:shadow-[0_0_15px_rgba(227,6,19,0.25)] transition-all duration-300"
                     />
                   </motion.div>
 
@@ -242,7 +242,7 @@ export function ContactPreview() {
                       placeholder="e.g. john@developer.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="border-gray-200 focus-visible:ring-accent focus:shadow-[0_0_15px_rgba(180,142,75,0.25)] transition-all duration-300"
+                      className="border-gray-200 focus-visible:ring-accent focus:shadow-[0_0_15px_rgba(227,6,19,0.25)] transition-all duration-300"
                     />
                   </motion.div>
 
@@ -255,7 +255,7 @@ export function ContactPreview() {
                       id="projectType"
                       value={formData.projectType}
                       onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
-                      className="flex h-12 w-full rounded-[var(--radius-sm)] border border-border bg-secondary/30 px-4 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-4 focus:ring-primary/10 focus:shadow-[0_0_15px_rgba(180,142,75,0.25)] transition-all duration-300 font-medium text-primary cursor-pointer"
+                      className="flex h-12 w-full rounded-[var(--radius-sm)] border border-border bg-secondary/30 px-4 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-4 focus:ring-primary/10 focus:shadow-[0_0_15px_rgba(227,6,19,0.25)] transition-all duration-300 font-medium text-primary cursor-pointer"
                     >
                       <option value="transportation">Transportation Engineering</option>
                       <option value="structural">Structural Engineering</option>
@@ -277,7 +277,7 @@ export function ContactPreview() {
                       placeholder="Detail your structure coordinates, budget estimates, or build deadlines..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="flex w-full rounded-[var(--radius-sm)] border border-border bg-secondary/30 px-4 py-3 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-4 focus:ring-primary/10 focus:shadow-[0_0_15px_rgba(180,142,75,0.25)] transition-all duration-300 text-primary font-light leading-relaxed resize-none"
+                      className="flex w-full rounded-[var(--radius-sm)] border border-border bg-secondary/30 px-4 py-3 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-4 focus:ring-primary/10 focus:shadow-[0_0_15px_rgba(227,6,19,0.25)] transition-all duration-300 text-primary font-light leading-relaxed resize-none"
                     />
                   </motion.div>
 

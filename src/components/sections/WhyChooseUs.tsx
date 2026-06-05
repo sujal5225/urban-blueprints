@@ -113,7 +113,7 @@ export function WhyChooseUs() {
                     cx="110"
                     cy="240"
                     r="4"
-                    fill="#b48e4b"
+                    fill="var(--accent)"
                     animate={{ scale: [1, 2.5, 1], opacity: [0.3, 1, 0.3] }}
                     transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
                   />

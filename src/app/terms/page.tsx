@@ -6,7 +6,7 @@ import { CtaBlock } from "@/components/shared/CtaBlock";
 export const metadata: Metadata = {
   title: "Terms of Service | Urban Blueprints",
   description: "Read the Terms of Service governing the use of Urban Blueprints engineering services and website.",
-  alternates: { canonical: "https://urban-blueprints.com/terms" },
+  alternates: { canonical: "https://urban-blueprintscom.com/terms" },
 };
 
 const sections = [
@@ -53,7 +53,7 @@ const sections = [
   {
     title: "Contact Us",
     content:
-      "If you have any questions about these Terms of Service, please contact us at info@urbanblueprints.com. We are happy to clarify any aspect of these terms.",
+      "If you have any questions about these Terms of Service, please contact us at info@urban-blueprintscom.com. We are happy to clarify any aspect of these terms.",
   },
 ];
 

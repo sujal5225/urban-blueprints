@@ -31,12 +31,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${project.title} | Case Study | Urban Blueprints`,
     description: project.description,
     alternates: {
-      canonical: `https://urban-blueprints.com/projects/${project.slug}`,
+      canonical: `https://urban-blueprintscom.com/projects/${project.slug}`,
     },
     openGraph: {
       title: `${project.title} | Urban Blueprints`,
       description: project.description,
-      url: `https://urban-blueprints.com/projects/${project.slug}`,
+      url: `https://urban-blueprintscom.com/projects/${project.slug}`,
       siteName: "Urban Blueprints",
       images: [
         {
@@ -67,8 +67,8 @@ export default async function ProjectDetailsPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": `https://urban-blueprints.com/projects/${project.slug}/#webpage`,
-        "url": `https://urban-blueprints.com/projects/${project.slug}`,
+        "@id": `https://urban-blueprintscom.com/projects/${project.slug}/#webpage`,
+        "url": `https://urban-blueprintscom.com/projects/${project.slug}`,
         "name": `${project.title} | Case Study | Urban Blueprints`,
         "description": project.description,
         "breadcrumb": {
@@ -78,19 +78,19 @@ export default async function ProjectDetailsPage({ params }: PageProps) {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://urban-blueprints.com"
+              "item": "https://urban-blueprintscom.com"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Portfolio",
-              "item": "https://urban-blueprints.com/projects"
+              "item": "https://urban-blueprintscom.com/projects"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": project.title,
-              "item": `https://urban-blueprints.com/projects/${project.slug}`
+              "item": `https://urban-blueprintscom.com/projects/${project.slug}`
             }
           ]
         }
@@ -99,11 +99,11 @@ export default async function ProjectDetailsPage({ params }: PageProps) {
         "@type": "CreativeWork",
         "name": project.title,
         "description": project.description,
-        "image": "https://urban-blueprints.com" + project.image,
+        "image": "https://urban-blueprintscom.com" + project.image,
         "author": {
           "@type": "Organization",
           "name": "Urban Blueprints",
-          "url": "https://urban-blueprints.com"
+          "url": "https://urban-blueprintscom.com"
         }
       }
     ]

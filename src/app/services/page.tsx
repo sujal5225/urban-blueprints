@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title: "Engineering Services | Urban Blueprints",
   description: "Comprehensive civil, structural, and environmental engineering services designed for high-impact capital projects.",
   alternates: {
-    canonical: "https://urban-blueprints.com/services",
+    canonical: "https://urban-blueprintscom.com/services",
   },
   openGraph: {
     title: "Engineering Services | Urban Blueprints",
     description: "Comprehensive civil, structural, and environmental engineering services designed for high-impact capital projects.",
-    url: "https://urban-blueprints.com/services",
+    url: "https://urban-blueprintscom.com/services",
     siteName: "Urban Blueprints",
     type: "website",
   }

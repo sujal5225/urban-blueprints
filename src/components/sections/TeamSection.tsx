@@ -8,8 +8,8 @@ import { Users, Award, BookOpen } from 'lucide-react';
 const coreTeamValues = [
   {
     icon: Users,
-    title: '45+ Technical Specialists',
-    description: 'A diverse group of geotechnical experts, structural designers, and environmental compliance consultants.'
+    title: '20+ Technical Specialists',
+    description: 'A diverse group of geotechnical experts, structural designers, and environmental consultants.'
   },
   {
     icon: Award,

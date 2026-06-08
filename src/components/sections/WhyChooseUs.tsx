@@ -15,7 +15,7 @@ const coreAdvantages = [
   {
     icon: ShieldCheck,
     title: 'Safety-First Site Integrity',
-    description: 'Our certified engineers and site inspectors implement robust safety protocols, boasting a zero-accident record across over 150 complex capital builds.'
+    description: 'Our certified engineers and site inspectors implement robust safety protocols, boasting a zero-accident record across over 50 complex capital builds.'
   },
   {
     icon: Leaf,
@@ -25,7 +25,7 @@ const coreAdvantages = [
   {
     icon: Compass,
     title: 'Precision Structural Rigor',
-    description: 'Utilizing finite-element stress analysis (FEA) and geotechnical boring surveys to guarantee structural foundations designed to last centuries.'
+    description: 'Utilizing finite-element stress analysis (FEA) and geotechnical boring surveys to design robust structural foundations.'
   }
 ];
 

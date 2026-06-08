@@ -32,12 +32,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${service.title} | Modern Engineering | Urban Blueprints`,
     description: service.description,
     alternates: {
-      canonical: `https://urban-blueprints.com/services/${service.slug}`,
+      canonical: `https://urban-blueprintscom.com/services/${service.slug}`,
     },
     openGraph: {
       title: `${service.title} | Urban Blueprints`,
       description: service.description,
-      url: `https://urban-blueprints.com/services/${service.slug}`,
+      url: `https://urban-blueprintscom.com/services/${service.slug}`,
       siteName: "Urban Blueprints",
       images: [
         {
@@ -71,8 +71,8 @@ export default async function ServiceDetailsPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": `https://urban-blueprints.com/services/${service.slug}/#webpage`,
-        "url": `https://urban-blueprints.com/services/${service.slug}`,
+        "@id": `https://urban-blueprintscom.com/services/${service.slug}/#webpage`,
+        "url": `https://urban-blueprintscom.com/services/${service.slug}`,
         "name": `${service.title} | Urban Blueprints`,
         "description": service.description,
         "breadcrumb": {
@@ -82,19 +82,19 @@ export default async function ServiceDetailsPage({ params }: PageProps) {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://urban-blueprints.com"
+              "item": "https://urban-blueprintscom.com"
             },
             {
               "@type": "ListItem",
               "position": 2,
               "name": "Services",
-              "item": "https://urban-blueprints.com/services"
+              "item": "https://urban-blueprintscom.com/services"
             },
             {
               "@type": "ListItem",
               "position": 3,
               "name": service.title,
-              "item": `https://urban-blueprints.com/services/${service.slug}`
+              "item": `https://urban-blueprintscom.com/services/${service.slug}`
             }
           ]
         }
@@ -106,7 +106,7 @@ export default async function ServiceDetailsPage({ params }: PageProps) {
         "provider": {
           "@type": "Organization",
           "name": "Urban Blueprints",
-          "url": "https://urban-blueprints.com"
+          "url": "https://urban-blueprintscom.com"
         },
         "areaServed": "Global"
       }

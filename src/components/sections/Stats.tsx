@@ -14,25 +14,25 @@ interface StatItem {
 const statsData: StatItem[] = [
   {
     icon: CheckSquare,
-    value: 150,
+    value: 50,
     suffix: '+',
     label: 'Capital Projects Completed'
   },
   {
     icon: Trophy,
-    value: 25,
+    value: 10,
     suffix: '+',
     label: 'Global Design Awards'
   },
   {
     icon: Cpu,
-    value: 45,
+    value: 20,
     suffix: '+',
     label: 'Structural Specialists'
   },
   {
     icon: ShieldAlert,
-    value: 100,
+    value: 95,
     suffix: '%',
     label: 'On-Time Project Delivery'
   }

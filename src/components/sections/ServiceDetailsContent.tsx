@@ -372,14 +372,6 @@ export function ServiceDetailsContent({ service, relatedServices, serviceCases }
                           <span className="text-muted-foreground font-light">Lead Division</span>
                           <span className="font-semibold text-primary px-3 py-1 bg-background rounded-md border border-border shadow-sm">Capital Projects</span>
                         </div>
-                        <div className="flex justify-between items-center text-sm">
-                          <span className="text-muted-foreground font-light">Compliance</span>
-                          <span className="font-semibold text-primary px-3 py-1 bg-background rounded-md border border-border shadow-sm">ISO 9001:2015</span>
-                        </div>
-                        <div className="flex justify-between items-center text-sm">
-                          <span className="text-muted-foreground font-light">Quality</span>
-                          <span className="font-semibold text-primary px-3 py-1 bg-background rounded-md border border-border shadow-sm">FEA Certified</span>
-                        </div>
                       </div>
                     </div>
                   </aside>
@@ -593,7 +585,7 @@ export function ServiceDetailsContent({ service, relatedServices, serviceCases }
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
                       {[
-                        { icon: Mail, label: 'Email Desk', val: 'info@urbanblueprints.com' },
+                        { icon: Mail, label: 'Email Desk', val: 'info@urban-blueprintscom.com' },
                         { icon: Clock, label: 'Active Support Hours', val: 'Mon - Fri: 8:00 AM - 5:00 PM' }
                       ].map((item, index) => {
                         const Icon = item.icon;

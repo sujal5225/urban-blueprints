@@ -22,7 +22,7 @@ export function Footer() {
                 <img src="/images/logo/Urban_Logo_Final-02.png" alt="Urban Blueprints Logo" className="h-16 md:h-20 w-auto object-contain" width="200" height="80" loading="lazy" />
               </Link>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                At Urban Blueprints, we are driven by our passion to build the infrastructure that connects our communities and shapes the world around us.
+                At Urban Blueprints, established in 2021, we are driven by our passion to build the infrastructure that connects our communities and shapes the world around us.
               </p>
               <div className="flex space-x-4">
                 <a href="https://facebook.com/urbanblueprintscom" target="_blank" rel="noreferrer" className="bg-slate-200/60 text-muted-foreground p-2 rounded-full hover:bg-accent hover:text-white transition-all transform hover:-translate-y-1" aria-label="Facebook">
@@ -80,7 +80,7 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={20} className="text-accent shrink-0" />
-                <span className="text-sm">info@urbanblueprints.com</span>
+                <span className="text-sm">info@urban-blueprintscom.com</span>
               </li>
             </ul>
           </ScrollReveal>
@@ -89,7 +89,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <ScrollReveal direction="up" delay={0.5} className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-          <p>&copy; {currentYear} Urban Blueprints. All rights reserved.</p>
+          <p>&copy; 2021 - {currentYear} Urban Blueprints. All rights reserved.</p>
           <div className="flex space-x-6">
             <Link href="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-primary transition-colors">Terms of Service</Link>

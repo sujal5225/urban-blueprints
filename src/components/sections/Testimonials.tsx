@@ -10,7 +10,6 @@ interface Testimonial {
   quote: string;
   author: string;
   role: string;
-  company: string;
   stars: number;
 }
 
@@ -18,49 +17,43 @@ const testimonialsData: Testimonial[] = [
   {
     id: 1,
     quote: "Urban Blueprints designed the metro interchange on-schedule and under-budget. Their next-gen BIM clash detection system caught three structural foundation errors before concrete was ever poured, saving us weeks and millions in field adjustments.",
-    author: "Edward Collins",
+    author: "E. Kumar",
     role: "Director of Highways & Operations",
-    company: "Capital Transit Authority",
     stars: 5
   },
   {
     id: 2,
     quote: "Their structural engineering team is world-class. They engineered the entire concrete core and structural steel brace system for our 54-story skyscraper, ensuring top-tier seismic protection while maximizing the premium column-free office layout.",
-    author: "Samantha Ross",
+    author: "S. Sharma",
     role: "VP of Real Estate Development",
-    company: "Apex Estates Group",
     stars: 5
   },
   {
     id: 3,
     quote: "Securing environmental permits and water resource design for our municipal retention dam was a massive challenge. Urban Blueprints guided us seamlessly, producing impeccable designs that fully satisfy modern regulatory and flood-prevention guidelines.",
-    author: "Dr. Alistair Vance",
+    author: "Dr. A. Patel",
     role: "Principal Infrastructure Lead",
-    company: "Municipal Water Resources Council",
     stars: 5
   },
   {
     id: 4,
     quote: "Through rigorous finite-element simulations, their team optimized our transit terminal design, cutting structural steel weight by 18% without sacrificing loading capacity. Their attention to material science is peerless.",
-    author: "Elena Rostova",
+    author: "E. Reddy",
     role: "Chief Structural Engineer",
-    company: "Baltic Transport Hubs",
     stars: 5
   },
   {
     id: 5,
     quote: "We partnered with Urban Blueprints on a critical stormwater recycling grid. Their ecological bio-swales and mechanical sand filters handle over 12k liters of greywater daily, exceeding all sustainability benchmarks.",
-    author: "Marcus Vance",
+    author: "M. Singh",
     role: "Director of Ecological Development",
-    company: "EcoGreen Cities Project",
     stars: 5
   },
   {
     id: 6,
     quote: "Stabilizing the deep excavation coordinates in soft clay next to active metro lines was a high-risk operation. Their geotechnical telemetry and structural soil-mixing saved our foundations from potential shifts.",
-    author: "David K. Alvarez",
+    author: "D. Verma",
     role: "VP of Underground Infrastructure",
-    company: "Metro Civil Partners",
     stars: 5
   }
 ];
@@ -230,7 +223,7 @@ export function Testimonials() {
                       {item.author}
                     </h3>
                     <p className="text-[11px] text-muted-foreground font-medium mt-0.5">
-                      {item.role}, <span className="text-accent font-semibold">{item.company}</span>
+                      {item.role}
                     </p>
                   </div>
                 </motion.div>

@@ -135,7 +135,7 @@ export function About() {
               viewport={{ once: true }}
               className="text-muted-foreground text-base leading-relaxed font-light mb-6"
             >
-              At Urban Blueprints, we are driven by our passion to build the infrastructure that connects our communities and shapes the world around us. Our team comprises experienced engineers and dedicated professionals who offer comprehensive civil engineering services covering the full lifetime of the project. We strive to provide our clients exceptional service, quality work, and innovative solutions that meet their unique needs and exceed their expectations.
+              At Urban Blueprints, established in 2021, we are driven by our passion to build the infrastructure that connects our communities and shapes the world around us. Our team comprises experienced engineers and dedicated professionals who offer comprehensive civil engineering services covering the full lifetime of the project. We strive to provide our clients exceptional service, quality work, and innovative solutions that meet their unique needs and exceed their expectations.
             </motion.p>
 
             {/* Structured Features - staggered value cards with soft hover elevation */}
@@ -248,25 +248,11 @@ export function About() {
                   <Users className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
                 <div>
-                  <div className="text-sm sm:text-xl font-heading font-bold leading-none">12+ Years</div>
+                  <div className="text-sm sm:text-xl font-heading font-bold leading-none">5+ Years</div>
                   <div className="text-[8px] sm:text-[10px] uppercase tracking-wider text-gray-400 font-medium mt-0.5 sm:mt-1">Global Innovation</div>
                 </div>
               </motion.div>
 
-              {/* Floating Badge 2 - Accreditation */}
-              <motion.div
-                animate={reducedMotion ? {} : { y: [0, 6, 0] }}
-                transition={{ repeat: Infinity, duration: 4, delay: 2, ease: "easeInOut" }}
-                className="absolute -bottom-3 -right-3 sm:-bottom-6 sm:-right-6 bg-background text-primary p-2.5 sm:p-4 rounded-[var(--radius-xl)] shadow-[var(--shadow-float)] border border-border flex items-center gap-2 sm:gap-3.5 max-w-[160px] sm:max-w-[220px] z-20"
-              >
-                <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0">
-                  <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5" />
-                </div>
-                <div>
-                  <div className="text-xs sm:text-base font-heading font-bold leading-none">ISO 9001:2015</div>
-                  <div className="text-[8px] sm:text-[10px] uppercase tracking-wider text-muted-foreground font-medium mt-0.5 sm:mt-1">Quality Certified</div>
-                </div>
-              </motion.div>
             </div>
           </div>
         </div>

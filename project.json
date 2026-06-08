@@ -1,0 +1,53 @@
+{
+  "domain": "urban-blueprintscom.com",
+  "industry": "Civil Engineering & Architecture",
+  "domainRegistered": "2023-11-11",
+  "brandName": "Urban Blueprints",
+  "primaryContact": "info@urban-blueprintscom.com",
+  "keyServices": [
+    "Transportation Engineering",
+    "Structural Engineering",
+    "Water Resources Engineering",
+    "Environmental Engineering",
+    "Geotechnical Engineering"
+  ],
+  "brandColors": ["#1E3A8A", "#F59E0B", "#374151"],
+  "establishedYear": "2021",
+  "businessType": "Corporate",
+  "targetAudience": "B2B, Government, Real Estate Developers",
+  "targetCountries": ["US", "Global"],
+  "seoKeywords": [
+    "civil engineering",
+    "structural engineering",
+    "transportation engineering",
+    "geotechnical engineering",
+    "environmental engineering",
+    "BIM design",
+    "capital projects"
+  ],
+  "designStyle": "Modern, Professional, Technical",
+  "allocatedTo": "Developer Team",
+  "companySize": "Medium/Enterprise",
+  "contactDetails": {
+    "phone": null,
+    "whatsapp": null,
+    "officeAddress": null
+  },
+  "socialMediaHandles": {
+    "instagram": "https://instagram.com/urbanblueprintscom/",
+    "twitter": "https://twitter.com/urbanblueprints",
+    "facebook": "https://facebook.com/urbanblueprintscom",
+    "linkedin": null,
+    "youtube": null
+  },
+  "additionalFeatures": {
+    "newsletter": false,
+    "testimonials": true,
+    "faq": false,
+    "blog": false,
+    "portfolio": true,
+    "teamPage": true,
+    "chatWidget": false,
+    "multiLanguage": false
+  }
+}

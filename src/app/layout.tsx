@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     template: "%s | Urban Blueprints",
   },
   description: "A team of experienced and qualified civil engineers committed to providing high-quality services in structural, transportation, water resources, environmental, and geotechnical engineering.",
-  metadataBase: new URL("https://urban-blueprints.com"),
+  metadataBase: new URL("https://urban-blueprintscom.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Urban Blueprints | Modern Civil Engineering",
     description: "A team of experienced and qualified civil engineers committed to providing high-quality services in structural, transportation, water resources, environmental, and geotechnical engineering.",
-    url: "https://urban-blueprints.com",
+    url: "https://urban-blueprintscom.com",
     siteName: "Urban Blueprints",
     images: [
       {
@@ -57,12 +57,12 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Urban Blueprints",
-    "url": "https://urban-blueprints.com",
-    "logo": "https://urban-blueprints.com/images/logo/Urban_Logo_Final-02.png",
+    "url": "https://urban-blueprintscom.com",
+    "logo": "https://urban-blueprintscom.com/images/logo/Urban_Logo_Final-02.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+1-555-123-4567",
-      "contactType": "customer service"
+      "contactType": "customer service",
+      "email": "info@urban-blueprintscom.com"
     }
   };
 

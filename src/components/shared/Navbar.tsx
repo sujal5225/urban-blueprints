@@ -203,7 +203,7 @@ export function Navbar() {
                 <div className="mt-8 pt-8 border-t border-gray-100 space-y-4">
                   <div className="flex items-center gap-3 text-sm text-gray-600">
                     <Mail size={16} className="text-accent" />
-                    <span>info@urbanblueprints.com</span>
+                    <span>info@urban-blueprintscom.com</span>
                   </div>
                 </div>
               </div>

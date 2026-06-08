@@ -4,21 +4,20 @@ import { About as AboutOverview } from "@/components/sections/About";
 import { VisionValues } from "@/components/sections/VisionValues";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { Stats } from "@/components/sections/Stats";
-import { TeamSection } from "@/components/sections/TeamSection";
 import { CtaBlock } from "@/components/shared/CtaBlock";
 
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us | Urban Blueprints",
-  description: "Learn about our engineering expertise, leadership team, and the core values that drive our civil infrastructure projects.",
+  description: "Learn about our engineering expertise and the core values that drive our civil infrastructure projects.",
   alternates: {
-    canonical: "https://urban-blueprints.com/about",
+    canonical: "https://urban-blueprintscom.com/about",
   },
   openGraph: {
     title: "About Us | Urban Blueprints",
-    description: "Learn about our engineering expertise, leadership team, and the core values that drive our civil infrastructure projects.",
-    url: "https://urban-blueprints.com/about",
+    description: "Learn about our engineering expertise and the core values that drive our civil infrastructure projects.",
+    url: "https://urban-blueprintscom.com/about",
     siteName: "Urban Blueprints",
     type: "website",
   }
@@ -47,8 +46,6 @@ export default function AboutPage() {
 
       <Stats />
 
-      {/* Leadership team and studio layout */}
-      <TeamSection />
 
       <CtaBlock 
         title="Join us in building the future."

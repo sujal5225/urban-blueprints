@@ -6,7 +6,7 @@ import { CtaBlock } from "@/components/shared/CtaBlock";
 export const metadata: Metadata = {
   title: "Privacy Policy | Urban Blueprints",
   description: "Learn how Urban Blueprints collects, uses, and protects your personal information.",
-  alternates: { canonical: "https://urban-blueprints.com/privacy" },
+  alternates: { canonical: "https://urban-blueprintscom.com/privacy" },
 };
 
 const sections = [
@@ -33,7 +33,7 @@ const sections = [
   {
     title: "Your Rights",
     content:
-      "You have the right to access, correct, or delete your personal information that we hold. You may also object to or restrict certain processing of your data. To exercise these rights, please contact us at info@urbanblueprints.com. We will respond to your request within 30 days.",
+      "You have the right to access, correct, or delete your personal information that we hold. You may also object to or restrict certain processing of your data. To exercise these rights, please contact us at info@urban-blueprintscom.com. We will respond to your request within 30 days.",
   },
   {
     title: "Cookies",
@@ -48,7 +48,7 @@ const sections = [
   {
     title: "Contact Us",
     content:
-      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at info@urbanblueprints.com. We are committed to resolving any privacy concerns you may have.",
+      "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at info@urban-blueprintscom.com. We are committed to resolving any privacy concerns you may have.",
   },
 ];
 

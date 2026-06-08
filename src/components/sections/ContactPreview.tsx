@@ -65,7 +65,7 @@ export function ContactPreview() {
             {/* Quick Contacts */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
               {[
-                { icon: Mail, label: 'Email Desk', val: 'info@urbanblueprints.com' },
+                { icon: Mail, label: 'Email Desk', val: 'info@urban-blueprintscom.com' },
                 { icon: Clock, label: 'Support Hours', val: 'Mon - Fri: 8:00 AM - 5:00 PM' }
               ].map((item, index) => {
                 const Icon = item.icon;

@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Contact Us | Urban Blueprints",
   description: "Get in touch with our principal engineering team for feasibility requests, structural assessments, and consulting.",
   alternates: {
-    canonical: "https://urban-blueprints.com/contact",
+    canonical: "https://urban-blueprintscom.com/contact",
   },
   openGraph: {
     title: "Contact Us | Urban Blueprints",
     description: "Get in touch with our principal engineering team for feasibility requests, structural assessments, and consulting.",
-    url: "https://urban-blueprints.com/contact",
+    url: "https://urban-blueprintscom.com/contact",
     siteName: "Urban Blueprints",
     type: "website",
   }

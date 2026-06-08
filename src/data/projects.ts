@@ -285,7 +285,7 @@ export const projectsData: ProjectItem[] = [
     description: "Assessed microclimate wind effects, active biological green facade integration, and greywater recycling systems.",
     challenge: "Achieving outstanding self-sustaining eco-performance for a high-density, multi-tenant commercial skyscraper.",
     solution: "Designed biological green facades for natural shading, integrated greywater filtration, and high-efficiency heat exchangers.",
-    metaDescription: "Leeds Urban Eco-Distinction Tower environmental study. Biological green facades, microclimates, and BREEAM Outstanding greywater loops.",
+    metaDescription: "Leeds Urban Eco-Distinction Tower environmental study. Biological green facades, microclimates, and advanced greywater loops.",
     objectives: [
       "Establish a self-sustaining eco-commercial center with minimal grid load.",
       "Achieve BREEAM Outstanding rating through comprehensive green systems.",
@@ -305,7 +305,7 @@ export const projectsData: ProjectItem[] = [
       { phase: "Microclimate Modeling", date: "Q2 2023", description: "Simulated localized thermal wind loops and solar gain boundaries." },
       { phase: "Greywater Pipelining", date: "Q4 2023", description: "Piped dedicated greywater collection lines and subterranean filters." },
       { phase: "Vertical Planting", date: "Q2 2024", description: "Installed lightweight structural green pockets and irrigation systems." },
-      { phase: "BREEAM Audit", date: "Q1 2025", description: "Completed final compliance audits, securing the BREEAM Outstanding rating." }
+      { phase: "Final Audit", date: "Q1 2025", description: "Completed final audits." }
     ],
     stats: [
       { label: "BREEAM Score", value: "92.4%" },

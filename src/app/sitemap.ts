@@ -2,8 +2,10 @@ import type { MetadataRoute } from 'next'
 import { projectsData } from '@/data/projects'
 import { navigation } from '@/data/navigation'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://urban-blueprints.com'
+  const baseUrl = 'https://urban-blueprintscom.com'
 
   // Base paths
   const baseRoutes = [

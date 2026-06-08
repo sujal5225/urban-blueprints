@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "Engineering Portfolio | Urban Blueprints",
   description: "Explore our proven track record of designing and delivering resilient, high-performance civil infrastructure and structural engineering projects.",
   alternates: {
-    canonical: "https://urban-blueprints.com/projects",
+    canonical: "https://urban-blueprintscom.com/projects",
   },
   openGraph: {
     title: "Engineering Portfolio | Urban Blueprints",
     description: "Explore our proven track record of designing and delivering resilient, high-performance civil infrastructure and structural engineering projects.",
-    url: "https://urban-blueprints.com/projects",
+    url: "https://urban-blueprintscom.com/projects",
     siteName: "Urban Blueprints",
     type: "website",
   }

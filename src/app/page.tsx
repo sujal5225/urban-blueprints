@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: "Urban Blueprints | Modern Civil & Structural Engineering Solutions",
   description: "Urban Blueprints provides expert civil, structural, environmental, geotechnical, and transportation engineering services. Build the future with our BIM and advanced design technologies.",
   alternates: {
-    canonical: "https://urban-blueprints.com",
+    canonical: "https://urban-blueprintscom.com",
   },
   openGraph: {
     title: "Urban Blueprints | Modern Civil & Structural Engineering Solutions",
     description: "Urban Blueprints provides expert civil, structural, environmental, geotechnical, and transportation engineering services. Build the future with our BIM and advanced design technologies.",
-    url: "https://urban-blueprints.com",
+    url: "https://urban-blueprintscom.com",
     siteName: "Urban Blueprints",
     type: "website",
   }
@@ -30,22 +30,22 @@ export default function Home() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://urban-blueprints.com/#website",
-        "url": "https://urban-blueprints.com",
+        "@id": "https://urban-blueprintscom.com/#website",
+        "url": "https://urban-blueprintscom.com",
         "name": "Urban Blueprints",
         "description": "Modern Civil Engineering Services",
         "publisher": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         }
       },
       {
         "@type": "Organization",
-        "@id": "https://urban-blueprints.com/#organization",
+        "@id": "https://urban-blueprintscom.com/#organization",
         "name": "Urban Blueprints",
-        "url": "https://urban-blueprints.com",
+        "url": "https://urban-blueprintscom.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://urban-blueprints.com/favicon.ico"
+          "url": "https://urban-blueprintscom.com/favicon.ico"
         },
         "sameAs": [
           "https://facebook.com/urbanblueprintscom",
@@ -55,23 +55,23 @@ export default function Home() {
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "customer service",
-          "email": "info@urbanblueprints.com",
+          "email": "info@urban-blueprintscom.com",
           "availableLanguage": "en"
         }
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://urban-blueprints.com/#localbusiness",
+        "@id": "https://urban-blueprintscom.com/#localbusiness",
         "name": "Urban Blueprints",
-        "image": "https://urban-blueprints.com/images/home/home-hero-banner.webp",
-        "email": "info@urbanblueprints.com",
-        "url": "https://urban-blueprints.com"
+        "image": "https://urban-blueprintscom.com/images/home/home-hero-banner.webp",
+        "email": "info@urban-blueprintscom.com",
+        "url": "https://urban-blueprintscom.com"
       },
       {
         "@type": "Service",
         "name": "Transportation Engineering",
         "provider": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         },
         "description": "Planning, geometric design, and structural analysis of high-volume expressways, interchanges, transit corridors, and highway infrastructure."
       },
@@ -79,7 +79,7 @@ export default function Home() {
         "@type": "Service",
         "name": "Structural Engineering",
         "provider": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         },
         "description": "Detailed design and modeling of multi-story buildings, bridge configurations, retaining structures, and seismic retrofitting solutions."
       },
@@ -87,7 +87,7 @@ export default function Home() {
         "@type": "Service",
         "name": "Water Resources Engineering",
         "provider": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         },
         "description": "Hydraulic calculations, stormwater retention networks, canal geometries, and flood mitigation barriers."
       },
@@ -95,7 +95,7 @@ export default function Home() {
         "@type": "Service",
         "name": "Environmental Engineering",
         "provider": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         },
         "description": "Ecological site assessments, sustainable infrastructure modeling, brownfield phytoremediation, and bio-retention layouts."
       },
@@ -103,7 +103,7 @@ export default function Home() {
         "@type": "Service",
         "name": "Geotechnical Engineering",
         "provider": {
-          "@id": "https://urban-blueprints.com/#organization"
+          "@id": "https://urban-blueprintscom.com/#organization"
         },
         "description": "Subsurface boring calculations, slope stability retaining wall grids, deep pile anchors, and seismic soil telemetry."
       }

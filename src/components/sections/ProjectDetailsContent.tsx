@@ -322,7 +322,7 @@ export function ProjectDetailsContent({ project, relatedProjects }: ProjectDetai
                             {project.sustainability}
                           </p>
                           <p className="text-green-800/80 leading-relaxed font-light text-sm">
-                            Our green design guidelines ensure minimal ecological stress, reduced carbon emissions, and strict compliance with global BREEAM and LEED specifications.
+                            Our green design guidelines ensure minimal ecological stress and reduced carbon emissions.
                           </p>
                         </motion.div>
                       )}
@@ -496,39 +496,13 @@ export function ProjectDetailsContent({ project, relatedProjects }: ProjectDetai
                         Interested in adopting these advanced coordinates or feasibility solutions for your municipality or division? Request a consultations plan.
                       </p>
 
-                      <AnimatePresence mode="wait">
-                        {formSubmitted ? (
-                          <motion.div
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0 }}
-                            className="bg-green-500/10 border border-green-500/30 text-green-700 p-4 rounded-xl flex items-start gap-3"
-                          >
-                            <CheckCircle2 className="shrink-0 text-green-500 mt-0.5" size={18} />
-                            <div className="text-xs font-medium">
-                              Inquiry submitted! Our principal engineers will contact you with the blueprints data within 1 business day.
-                            </div>
-                          </motion.div>
-                        ) : (
-                          <form onSubmit={handleInquirySubmit} className="space-y-4">
-                            <input
-                              type="email"
-                              required
-                              placeholder="Enter your professional email"
-                              value={emailInput}
-                              onChange={(e) => setEmailInput(e.target.value)}
-                              className="w-full bg-secondary/10 border border-border text-primary rounded-[var(--radius)] py-3 px-4 text-sm focus:outline-none focus:border-accent transition-colors"
-                            />
-                            <button
-                              type="submit"
-                              className="w-full inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/95 text-white font-bold py-3 px-5 rounded-[var(--radius)] text-xs shadow-md uppercase tracking-wider transition-colors cursor-pointer"
-                            >
-                              <span>Request Engineering Data</span>
-                              <Send size={12} />
-                            </button>
-                          </form>
-                        )}
-                      </AnimatePresence>
+                      <Link
+                        href="/contact"
+                        className="w-full inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/95 text-white font-bold py-3 px-5 rounded-[var(--radius)] text-xs shadow-md uppercase tracking-wider transition-colors cursor-pointer"
+                      >
+                        <span>Contact Our Team</span>
+                        <Send size={12} />
+                      </Link>
                     </div>
 
                   </div>
